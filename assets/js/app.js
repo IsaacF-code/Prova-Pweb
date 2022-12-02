@@ -25,5 +25,5 @@ const InfoApi = function () {
 
 carregar.addEventListener("click", function (e) {
     e.preventDefault();
-    console.log(xhr.avatar);
+    console.log(xhr.avatar); //Erro no console.log - "app.js:28 Uncaught ReferenceError: xhr is not defined at HTMLAnchorElement.<anonymous>"
 })
